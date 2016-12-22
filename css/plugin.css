@@ -1,0 +1,236 @@
+mark { 
+    background-color:rgba(1,87,155,0.6);
+	    color: #fff;
+}
+
+h1 mark{
+	line-height: 1.9;
+}
+
+.no-padding-bottom{
+	padding-bottom: 0px;
+	
+}
+
+hr.grey{
+    border-color: #eaeaea;
+    border-width: thin;
+    max-width: 80%;
+}
+/*===========================
+  Navigation
+=========================== */
+
+.navbar-default .navbar-header .navbar-toggle .fa-bars:hover,
+.navbar-default .navbar-header .navbar-toggle .fa-bars:hover{
+    color: #0277bd;
+	}
+
+
+/*===========================
+  Services
+=========================== */
+#features{
+}
+
+.features-bg{
+width:100%;
+height:100%;
+}
+.features-item{
+font-size:13px;
+line-height:22px;
+margin-bottom:25px;
+margin-top:25px;
+padding-left:60px;
+position:relative;
+
+}
+.features-item i{
+font-size:30px;
+left:0;
+position:absolute;
+top:-5px;
+color: #0277bd;
+
+}
+
+
+.features-item h2{
+font-size: 16px;
+font-weight: 700;
+margin:0 0 15px;
+text-transform:uppercase;
+
+}
+
+.features-item p{
+font-size:12px;
+
+}
+
+
+/*===========================
+ Footer & Footer Bottom
+=========================== */
+
+.footer {
+    font-family: 'Lato', Verdana, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #333;
+}
+
+    #footer-bottom {
+	padding:20px 0 25px;
+	background-color: #003c6c;
+	text-align: center;
+}
+
+#footer-bottom.no-bg {
+	background-color: transparent;
+	border-top:1px solid #eaeaea;
+}
+
+.copyright {
+	margin-bottom:0;
+}
+
+
+/* fix for inline-block auto margin */
+.footer-menu {
+	font-size:0;
+}
+
+.footer-menu li {
+	display:inline-block;
+	font-size:14px;
+	margin:4px 0;
+}
+
+.footer-menu li:after {
+	content:'/';
+	padding:0 10px;
+}
+
+.footer-menu li:last-child:after {
+	content:'';
+	padding:0;
+}
+
+
+
+@media (min-width:992px) {
+	#footer-bottom {
+		padding:25px 0;
+		text-align: left;
+	}
+
+	.footer-menu,
+	#footer-bottom .social-icons {
+		text-align: right;
+	}
+
+	.footer-menu li {
+		margin:9.5px 0;
+	}
+
+}
+
+
+/*===========================
+ Footer Custom
+=========================== */
+
+#footer.footer-custom {
+    color: #fff;
+    background-color: #01579b;
+    padding-top: 30px;
+}
+
+#footer.footer-custom a {
+	color:#e1e1e1;
+	font-weight: 700;
+}
+
+#footer.footer-custom a:hover,
+#footer.footer-custom a:focus,
+#footer.footer-custom .widget .tweet_time a:hover,
+#footer.footer-custom .widget .tweet_time a:focus {
+	color:#fafafa;
+}
+
+#footer.footer-custom .widget h4 {
+	color:#eaeaea;
+}
+
+#footer.footer-custom .footer-logo {
+	border-color: #eaeaea;
+	color:#eaeaea;
+}
+
+
+.footer-custom #footer-bottom.no-bg {
+	background-color: transparent;
+}
+
+
+#footer.footer-custom .btn-custom {
+	color: #fff;
+}
+
+
+/*===========================
+  Header Image
+=========================== */
+
+
+.imgresize{
+    width: 50%;
+}
+	
+
+
+/*===========================
+  Key Services
+=========================== */
+
+.mb70 {
+    margin-bottom: 70px!important;
+}
+
+.mb20{
+	margin-bottom:20px!important;
+}
+
+.row.no-margin {
+	margin:0 !important;
+}
+.colored-box {
+    padding: 45px 15px 40px;
+    color: #fff
+}
+
+.colored-box h3{
+	font-weight: 700;
+	font-size: 18px;
+}
+
+
+.bg-grey{
+	background-color: #fafafa;
+}
+
+.bg-blue1{
+	background-color: #0277bd;
+}
+
+.bg-blue2{
+	background-color: #01579b;
+}
+.bg-blue3{
+	background-color: #003c6c;
+}
+.text-white{
+	color: #fff;
+}
